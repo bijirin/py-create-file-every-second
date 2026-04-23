@@ -12,12 +12,12 @@ def main() -> None:
                 f"{now.second:02}.log"
             )
             time_stamp = (
-                    f"{now.year}-"
-                    f"{now.month:02}-"
-                    f"{now.day:02} "
-                    f"{now.hour:02}:"
-                    f"{now.minute:02}:"
-                    f"{now.second:02}"
+                f"{now.year}-"
+                f"{now.month:02}-"
+                f"{now.day:02} "
+                f"{now.hour:02}:"
+                f"{now.minute:02}:"
+                f"{now.second:02}"
             )
             with open(file_name, "w") as file:
                 file.write(time_stamp)
